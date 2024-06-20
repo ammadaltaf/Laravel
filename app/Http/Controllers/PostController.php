@@ -10,6 +10,7 @@ class PostController extends Controller
     
     public function index()
     {
+        // Hello world
         // $post = Post::get();
         // return response()->json(['message'=>'List of Posts','posts'=>$post],200);
         $post = Post::find(1);
