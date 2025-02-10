@@ -15,7 +15,7 @@ class PostObserver
     }
     public function retrieved(Post $post): void
     {
-        $post->increment('counter');
+        // $post->increment('counter');
     }
     /**
      * Handle the Post "updated" event.
